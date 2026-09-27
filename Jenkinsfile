@@ -11,7 +11,7 @@ pipeline {
 
         stage('Test') {
             steps {
-                sh 'docker run --rm cloud-cicd-app python -c "import app; print(\"Flask application test passed\")"'
+                sh 'docker run --rm cloud-cicd-app python -c "import app"'
             }
         }
 
