@@ -22,5 +22,6 @@ pipeline {
                 sh 'docker run -d --name cloud-cicd-container -p 5000:5000 cloud-cicd-app'
             }
         }
+
     }
 }
